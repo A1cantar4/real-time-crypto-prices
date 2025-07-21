@@ -1,0 +1,11 @@
+# Another way to get the price of a cryptocurrency in real-time.
+import requests
+
+def get_price(coin_id="bitcoin", currency="usd"):
+	url = f"https://api.coingecko.com/api/v3/simple/price?ids={coin_id}&vs_currencies={currency}"
+	response = requests.get(url)
+	data =response.json()
+	return data[coin_id][currency]
+
+price = get_price("bitcoin", "usd")
+print(f"Current Bitcoin Price: ${price}")
