@@ -68,20 +68,20 @@ You will be prompted to choose between:
 ## Example Output
 
 ```
-Olá chefe, choose which module you want to run: 
+Olá chefe, escolha qual módulo deseja executar: 
 1. Advanced Price API
 2. Simple Price API
 
-Enter the number, captain: 1
+Digite qual o número capitão: 1
 
-Running Advanced Price API...
+Executando Advanced Price API...
 ¨¨¨ REAL-TIME CRYPTO PRICES ¨¨¨
-Loading coin list from API...
+Carregando lista de moedas da API...
 
-Type the cryptocurrency name (e.g. bitcoin, eth, doge): doge
-Now type the currency (e.g. usd, brl, eur): brl
+Digite o nome da criptomoeda meu nobre (ex: bitcoin, eth, doge): doge
+Cavalheiro, agora digite a moeda (ex: usd, brl, eur): brl
 
-Found it! The current price of doge in BRL is: R$0,76
+Achei! O preço atual de doge em BRL é: R$0,76
 ```
 
 ---
